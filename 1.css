@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: #E43D12;
+    text-decoration: none;
+}
+
+                                                        /* top title bar!!*/
+.title_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92.6rem;
+    height: 38rem;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 5rem;
+    width: 10rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    align-content: center;
+    bottom: 10rem;
+    text-decoration: none;
+
+    background-color:transparent;
+
+}
+
+
+                                                        /*Section 1 heading box css*/
+.heading_box{
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 92.6rem;
+    height: 38rem;
+    padding: 0;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+
+.heading_buttons .help_btn{
+    right: 10rem;
+    top: 1.6rem;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 15px;
+    justify-content: space-between;
+    background-color: #FFA2B6;
+    position: absolute;
+    text-emphasis-color: black;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-color: transparent;
+    transition: .5s ease;
+
+    
+}
+
+.heading_buttons .help_btn:hover{
+    background-color: #D6536D;
+}
+
+
+.insta_btn{
+    right: 4rem;
+    top: 1.6rem;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 15px;
+    justify-content: space-between;
+    background-color: #FFA2B6;
+    position: absolute;
+    text-emphasis-color: black;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-color: transparent;
+    transition: .5s ease;
+}
+ .insta_btn:hover{
+    background-color: #D6536D;
+}
+
+.heading_text{
+    position: relative;
+    top: 10rem;
+    left: 9rem;
+    font-size: larger;
+    font-weight: 1000;
+    color: #E43D12;
+    font-family: 'poppins',sans-serif;
+    align-items: center;
+    align-content: space-between;
+    
+}
+.explore_btn{
+    position: absolute;
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #FFA2B6;
+    border-color: transparent;
+    color: white;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+    
+    align-content: space-between;
+    top: 9rem;
+}
+
+
+.explore_btn:hover{
+    background-color: #D6536D;
+}
+
+.contact_btn{
+    position: absolute;
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #FFA2B6;
+    color: white;
+    border-color: transparent;
+    align-content: space-between;
+    top: 9rem;
+    left: 10rem;
+    transition: background-color 0.3s ease;
+
+}
+
+.contact_btn:hover{
+    background-color: #D6536D;
+}
+
+.img_1{
+    position: relative;
+    height: 25rem;
+    border-radius: 12px;
+    bottom: 13rem;
+    left: 35rem;
+    
+}
+
+                                                        /*Section 2!!!*/
+                                                        /*make smarter tech choices box */
+
+.box1{
+    position: absolute;
+    height: 20rem;
+    width: 92.6rem;
+    top: 43rem;
+    background-color: #EBE9E1;
+    z-index: 1;
+}                                                        
+.box1 .heading_1{
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    font-size: larger;
+    align-content: space-between;
+    align-items: 10px;
+    color: #023e8a;
+
+}
+.box1 .heading_2{
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+    color: black;
+    text-align: justify;
+    font-weight: 100;
+    font-size: medium;
+    
+
+}
+
+                                                        /*section 3!!*/
+                                                        /*Tech wisdom at your fingers section css*/
+.heading_box2{
+    position: absolute;
+    top: 63rem;
+    left: 0;
+    width: 92.6rem;
+    height: 33rem;
+    padding: 0 ;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heading_box2 .heading_3{
+    position: absolute;
+    right: 10rem;
+    bottom: 18rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_box2 .img_2{
+    position: relative;
+    width: 37rem;
+    left: 8rem;
+    border-radius: 20px;
+
+}
+
+
+                                                        /*section 4!!*/
+                                                        /*Tech Decisions Simplified section css*/
+.heading_box3{
+    position: absolute;
+    top: 95rem;
+    left: 0;
+    width: 92.6rem;
+    height: 33rem;
+    padding: 0 ;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading_box3 .img_3{
+    position: absolute;
+    width: 37rem;
+    right: 8rem;
+    border-radius: 20px;    
+
+}
+
+.heading_box3 .heading_4{
+    position: absolute;
+    left: 12rem;
+    align-items: center;
+
+}
+
+                                                        /*section 5*/
+                                                        /*Tech Your Pick section css*/
+.heading_box4{
+    position: absolute;
+    top: 128rem;
+    left: 0;
+    width: 92.6rem;
+    height: 33rem;
+    padding: 0 ;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading_box4 .img_4{
+    position: absolute;
+    width: 36rem;
+    left: 8rem;
+    border-radius: 20px;
+
+}
+
+.heading_box4 .heading_5{
+    position: absolute;
+    right: 15rem;
+}
+
+                                                        /*section 6 */
+                                                        /*tech benefits section css */
+.heading_box6{
+    position: absolute;
+    top: 160rem;
+    left: 0;
+    width: 92.6rem;
+    height: 50rem;
+    padding: 0 ;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading_box6 .s1{
+    position: absolute;
+    top: 4rem;
+    left: 37rem;
+    font-size: 2rem;
+    color: #E43D12;
+
+}
+
+.heading_box6 .icon1{
+    position: absolute;
+    height: 2rem;
+    top: 14rem;
+    left: 15rem;
+}
+
+.heading_box6 .icon2{
+    position: absolute;
+    height: 2rem;
+    top: 14rem;
+    left: 35rem;
+}
+
+.heading_box6 .icon3{
+    position: absolute;
+    height: 2rem;
+    top: 14rem;
+    left: 55rem;
+}
+
+.heading_box6 .icon4{
+    position: absolute;
+    height: 2rem;
+    top: 14rem;
+    left: 77.5rem;
+}
+
+.heading_box6 .t1{
+    position: absolute;
+    text-align: center;
+    top: 23rem;
+    left: 10rem;
+    color: #E43D12;
+}
+
+.heading_box6 .t2{
+    position: absolute;
+    text-align: center;
+    top: 23rem;
+    left: 31.5rem;
+    color: #E43D12;
+}
+
+.heading_box6 .t3{
+    position: absolute;
+    text-align: center;
+    top: 22rem;
+    left: 48rem;
+    color: #E43D12;
+}
+
+.heading_box6 .t4{
+    position: absolute;
+    text-align: center;
+    top: 22rem;
+    left: 70rem;
+    color: #E43D12;
+}
+
+
+                                                        /*section 7!!*/
+                                                        /*Discover Your Perfect Tech Match section css*/
+.heading_box7{
+    position: absolute;
+    top: 210rem;
+    left: 0;
+    width: 92.6rem;
+    height: 20rem;
+    padding: 0 ;
+    margin: 0;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.heading_box7 .heading7{
+    position: absolute;
+    left: 28rem;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 0rem;
+    color: #E43D12;
+}
+
+.heading_box7 .explore_btn2{
+    position: absolute;
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #FFA2B6;
+    border-color: transparent;
+    color: white;
+    transition: background-color 0.5s ease;
+    
+    align-content: space-between;
+    top: 13rem;
+    left: 36rem;
+}
+.explore_btn2:hover{
+    background-color: #D6536D;
+} 
+
+.heading_box7 .contact_btn2{
+        position: absolute;
+        border-radius: 15px;
+        width: 8rem;
+        height: 2rem;
+        background-color: #FFA2B6;
+        color: white;
+        border-color: transparent;
+        align-content: space-between;
+        top: 13rem;
+        left: 46rem;
+        transition: background-color 0.5s ease;
+
+}
+
+.contact_btn2:hover{
+    background-color: #D6536D;
+}
+
+                                                        /*footer section*/
+                                                        /*footer including links section*/
+.footer_box1{
+    position: absolute;
+    height: 25rem;
+    width: 92.6rem;
+    top: 230rem;
+    background-color: black;
+}
+
+.footer_box1 .f_1{
+    position: absolute;
+    height: 16rem;
+    top: 2rem;
+    left: 5rem;
+    border-radius: 30px;
+}
+
+.footer_box1 .f_logo{
+    position: absolute;
+    top: 13rem;
+    left: 5.5rem;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+                                                        /*company box!!*/
+.footer_box1 .company_links{
+    position: absolute;
+    top: 8rem;
+    left: 30rem;
+    color: white;
+}
+
+.footer_box1 .company_links .abt_btn{
+    position: absolute;
+    border-radius: 15px;
+    left: 0.7rem;
+    width: 5rem;
+    height: 20px;
+    font-size: small;
+    background-color: black;
+    color: #023e8a;
+    border-color: transparent;
+    align-content: space-between;
+    transition: border-color 0.5s ease;
+}
+
+.footer_box1 .company_links .abt_btn:hover{
+    border-color: rgb(123, 121, 121);
+    color: white;
+}
+
+
+.footer_box1 .company_links .contact_btn2{
+    position: absolute;
+    border-radius: 15px;
+    left: 0.7rem;
+    width: 5rem;
+    height: 20px;
+    font-size: small;
+    background-color: black;
+    color: #023e8a;
+    border-color: transparent;
+    align-content: space-between;
+    transition: border-color 0.5s ease;
+}
+
+
+.footer_box1 .company_links .contact_btn2:hover{
+    border-color: rgb(123, 121, 121);
+    color: white;
+}
+
+                                                        /*services links box*/
+.footer_box1 .services_link{
+    position: absolute;
+    top: 8rem;
+    left: 50rem;
+    color: white;
+}
+
+.footer_box1 .services_link .devlopment_btn{
+    position: absolute;
+    border-radius: 15px;
+    left: 0.1rem;
+    width: 6rem;
+    height: 30px;
+    font-size: small;
+    background-color: black;
+    color: #023e8a;
+    border-color: transparent;
+    align-content: space-between;
+    transition: border-color 0.5s ease;
+}
+
+
+.footer_box1 .services_link .devlopment_btn:hover{
+    border-color: rgb(123, 121, 121);
+    color: white;
+}
+
+
+                                                        /*social links*/
+.footer_box1 .social_links{
+    position: absolute;
+    top: 8rem;
+    left: 70rem;
+    color: white;
+
+}
+
+
+.footer_box1 .social_links .insta_btn{
+    position: absolute;
+    border-radius: 15px;
+    width: 5rem;
+    height: 30px;
+    font-size: small;
+    background-color: black;
+    color: #023e8a;
+    border-color: transparent;
+    align-content: space-between;
+    transition: border-color 0.5s ease;
+}
+
+
+.footer_box1 .social_links .insta_btn:hover{
+    border-color: rgb(123, 121, 121);
+    color: white;
+}
+
+.footer_box1 .social_links .facebook_btn{
+    position: absolute;
+    border-radius: 15px;
+    width: 5rem;
+    height: 30px;
+    font-size: small;
+    background-color: black;
+    color: #023e8a;
+    border-color: transparent;
+    align-content: space-between;
+    transition: border-color 0.5s ease;
+}
+
+
+.footer_box1 .social_links .facebook_btn:hover{
+    border-color: rgb(123, 121, 121);
+    color: white;
+}
+

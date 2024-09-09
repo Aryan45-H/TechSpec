@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1{
+    color: #E43D12;
+    text-decoration: none;
+}
+
+
+                                                        /* top title bar!!*/
+.title_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 93.4rem;
+    height: 5rem;
+    background: #EBE9E1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 5rem;
+    width: 10rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    align-content: center;
+    bottom: 10rem;
+    text-decoration: none;
+
+    background-color:transparent;
+
+}
+
+.title_bar .help_btn{
+    right: 10.9rem;
+    top: 1.6rem;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 15px;
+    justify-content: space-between;
+    background-color: #FFA2B6;
+    position: absolute;
+    text-emphasis-color: black;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-color: transparent;
+    transition: .5s ease;
+
+    
+}
+
+.title_bar .help_btn:hover{
+    background-color: #D6536D;
+}
+
+.title_bar .buy_btn{
+    position: absolute;
+    height: 2rem;
+    width: 4rem;
+    top: 1.5rem;
+    right: 4.9rem;
+    background: #FFA2B6;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 15px;
+    outline: none;
+    border-color:transparent;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    transition: .5s ease;
+}
+.title_bar .buy_btn:hover{
+    background-color: #D6536D;
+}
